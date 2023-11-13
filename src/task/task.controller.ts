@@ -35,6 +35,11 @@ export class TaskController {
         });
     }
 
+    @Get("accept")
+    async getAccept () {
+        return this.acceptUsecase.execute({});
+    }
+
     @Get(":id")
     async getTask(
         @Param("id", ParseIntPipe) id: number,
@@ -49,12 +54,13 @@ export class TaskController {
         return this.createUsecase.execute({body});
     }
 
-    @Post("accept")
+    @Post(":id/accept")
     async accept(
+        @Param("id", ParseIntPipe) id: number,
         @Body() body: AcceptTaskDTO,
         @Response() response: ExpressResponse,
     ) {
-        return this.acceptUsecase.execute({body, response});
+        return this.acceptUsecase.execute({id, body, response});
     }
 
     @Post(":id/complete")

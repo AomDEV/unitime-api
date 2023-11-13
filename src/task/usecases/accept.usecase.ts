@@ -7,24 +7,28 @@ import { toXml } from "xml2json";
 import { Response } from "express";
 
 type AcceptProps = {
-    body: AcceptTaskDTO,
-    response: Response
+    id?: number,
+    body?: AcceptTaskDTO,
+    response?: Response
 };
 
 @Injectable()
-export class AcceptUsecase implements IUsecase<Promise<Response<any, Record<string, any>>>> {
+export class AcceptUsecase implements IUsecase<Promise<Response<any, Record<string, any>> | {id: number}>> {
     constructor(
         private readonly prismaService: PrismaService
     ) {}
 
     async execute({
+        id,
         body,
         response
-    }: AcceptProps): Promise<Response<any, Record<string, any>>> {
-        if (body.key !== process.env.SECRET_KEY) throw new ForbiddenException("Invalid key");
+    }: AcceptProps): Promise<Response<any, Record<string, any>> | {id: number}> {
+        const hasKey = body?.key || false;
+        if (hasKey && body.key !== process.env.SECRET_KEY) throw new ForbiddenException("Invalid key");
 
         const task = await this.prismaService.task.findFirstOrThrow({
             where: {
+                id,
                 input: {
                     not: null,
                 },
@@ -39,6 +43,7 @@ export class AcceptUsecase implements IUsecase<Promise<Response<any, Record<stri
         }).catch(() => {
             throw new NotFoundException("Task not found");
         });
+        if(!hasKey) return task;
         const updated = await this.prismaService.task.update({
             where: {
                 id: task.id,

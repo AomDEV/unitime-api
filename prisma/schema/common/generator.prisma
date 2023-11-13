@@ -1,0 +1,18 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+generator nestgraphql {
+    provider = "prisma-nestjs-graphql"
+    output = "../src/generated"
+    reExport = All
+    emitCompiled = false
+    purgeOutput = true
+    
+    fields_Validator_from = "class-validator"
+    fields_Validator_input = true
+
+    fields_Swagger_from = "@nestjs/swagger"
+    fields_Swagger_input = true
+    fields_Swagger_output = true
+}

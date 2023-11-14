@@ -32,8 +32,8 @@ export class CompleteUsecase implements IUsecase<Promise<Task>> {
     }: CompleteProps): Promise<Task> {
         if (body.key !== process.env.SECRET_KEY) throw new ForbiddenException("Invalid key");
 
-        const output = Buffer.from(body.output, "base64");
-        const json = this.tryParseJSON(output.toString());
+        const output = Buffer.from(body.output, "base64").toString("utf-8");
+        const json = this.tryParseJSON(output);
         if (!json) throw new ForbiddenException("Invalid output");
         return this.prismaService.task.update({
             where: {

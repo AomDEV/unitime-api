@@ -588,12 +588,12 @@
                             "_id": "20"
                         }
                     ]
-                }
-            },
-            "instructors": "",
-            "constraints": {},
-            "_version": "1.0",
-            "_created": "Tue Feb 12 13:45:28 CET 2013"
+                },
+                "instructors": "",
+                "constraints": {},
+                "_version": "1.0",
+                "_created": "Tue Feb 12 13:45:28 CET 2013"
+            }
         },
         "output": null,
         "accepted_at": null

@@ -13,7 +13,7 @@ async function bootstrap() {
 	// ** Injectable loader
 	const prismaService = app.get<PrismaService>(PrismaService);
 
-	app.use(json({ limit: '5mb' })); //5mb limit
+	app.use(json({ limit: '10mb' })); //5mb limit
 	app.useGlobalPipes(new ValidationPipe({ transform: true }));
 	app.useGlobalInterceptors(new ResponseInterceptor());
 	app.setGlobalPrefix('api');

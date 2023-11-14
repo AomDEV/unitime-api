@@ -11,7 +11,7 @@ type CompleteProps = {
 };
 
 @Injectable()
-export class CompleteUsecase implements IUsecase<Promise<Task>> {
+export class CompleteUsecase implements IUsecase<Promise<{id: number;}>> {
     constructor(
         private readonly prismaService: PrismaService
     ) {}
@@ -29,7 +29,7 @@ export class CompleteUsecase implements IUsecase<Promise<Task>> {
     async execute({
         id,
         body
-    }: CompleteProps): Promise<Task> {
+    }: CompleteProps): Promise<{id: number;}> {
         if (body.key !== process.env.SECRET_KEY) throw new ForbiddenException("Invalid key");
 
         const output = Buffer.from(body.output, "base64").toString("utf-8");
@@ -41,6 +41,9 @@ export class CompleteUsecase implements IUsecase<Promise<Task>> {
             },
             data: {
                 output: json
+            },
+            select: {
+                id: true,
             }
         });
     }

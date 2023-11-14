@@ -16,8 +16,9 @@ export class CompleteUsecase implements IUsecase<Promise<Task>> {
         private readonly prismaService: PrismaService
     ) {}
 
-    tryParseJSON(jsonString: string) {
+    tryParseJSON(xml: string) {
         try {
+            const jsonString = toJson(xml);
             const o = JSON.parse(jsonString);
             if (o && typeof o === "object") return o;
         }

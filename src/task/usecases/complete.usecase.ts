@@ -40,7 +40,8 @@ export class CompleteUsecase implements IUsecase<Promise<{id: number;}>> {
                 id,
             },
             data: {
-                output: json
+                output: json,
+                completed_at: new Date(),
             },
             select: {
                 id: true,

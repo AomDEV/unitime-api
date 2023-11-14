@@ -28,6 +28,14 @@ export class ListUsecase implements IUsecase<Promise<PaginatedResult<Task>>> {
             orderBy: {
                 id: 'desc',
             },
+            select: {
+                id: true,
+                accepted_at: true,
+                completed_at: true,
+                created_at: true,
+                updated_at: true,
+                deleted_at: true,
+            }
         }, {page, perPage: limit});
     }
 }

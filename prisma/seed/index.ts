@@ -2,14 +2,18 @@ import { prisma } from "./client";
 
 // ** Json Files
 import * as TaskJson from "./json/task.json";
+import * as TaskInputJson from "./json/task_input.json";
 
 async function main() {
     const transactions = await prisma.$transaction(async (tx) => {
-        const task = await tx.task.createMany({
-            data: TaskJson,
+        const tasks = await tx.task.createMany({
+            data: TaskJson.map(task => ({
+                ...task,
+                input: TaskInputJson,
+            })),
         })
         return {
-            task
+            tasks
         };
     });
     for (let i = 0; i < Object.keys(transactions).length; i++) {

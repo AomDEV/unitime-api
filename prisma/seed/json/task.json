@@ -5,228 +5,228 @@
                 "parameters": {
                     "property": [
                         {
-                            "_name": "backToBackConflictWeight",
-                            "_value": "10.0"
+                            "name": "backToBackConflictWeight",
+                            "value": "10.0"
                         },
                         {
-                            "_name": "backToBackDistance",
-                            "_value": "-1.0"
+                            "name": "backToBackDistance",
+                            "value": "-1.0"
                         },
                         {
-                            "_name": "directConflictWeight",
-                            "_value": "1000.0"
+                            "name": "directConflictWeight",
+                            "value": "1000.0"
                         },
                         {
-                            "_name": "distanceBackToBackConflictWeight",
-                            "_value": "25.0"
+                            "name": "distanceBackToBackConflictWeight",
+                            "value": "25.0"
                         },
                         {
-                            "_name": "distanceToStronglyPreferredRoomWeight",
-                            "_value": "1.0E-4"
+                            "name": "distanceToStronglyPreferredRoomWeight",
+                            "value": "1.0E-4"
                         },
                         {
-                            "_name": "distributionWeight",
-                            "_value": "1.0"
+                            "name": "distributionWeight",
+                            "value": "1.0"
                         },
                         {
-                            "_name": "examRotationWeight",
-                            "_value": "1.0E-4"
+                            "name": "examRotationWeight",
+                            "value": "1.0E-4"
                         },
                         {
-                            "_name": "instructorBackToBackConflictWeight",
-                            "_value": "0.0"
+                            "name": "instructorBackToBackConflictWeight",
+                            "value": "0.0"
                         },
                         {
-                            "_name": "instructorDirectConflictWeight",
-                            "_value": "10.0"
+                            "name": "instructorDirectConflictWeight",
+                            "value": "10.0"
                         },
                         {
-                            "_name": "instructorDistanceBackToBackConflictWeight",
-                            "_value": "0.0"
+                            "name": "instructorDistanceBackToBackConflictWeight",
+                            "value": "0.0"
                         },
                         {
-                            "_name": "instructorMoreThanTwoADayWeight",
-                            "_value": "0.0"
+                            "name": "instructorMoreThanTwoADayWeight",
+                            "value": "0.0"
                         },
                         {
-                            "_name": "isDayBreakBackToBack",
-                            "_value": "false"
+                            "name": "isDayBreakBackToBack",
+                            "value": "false"
                         },
                         {
-                            "_name": "largePeriod",
-                            "_value": "0.86"
+                            "name": "largePeriod",
+                            "value": "0.86"
                         },
                         {
-                            "_name": "largeSize",
-                            "_value": "600"
+                            "name": "largeSize",
+                            "value": "600"
                         },
                         {
-                            "_name": "largeWeight",
-                            "_value": "2500000.0"
+                            "name": "largeWeight",
+                            "value": "2500000.0"
                         },
                         {
-                            "_name": "maxRooms",
-                            "_value": "4"
+                            "name": "maxRooms",
+                            "value": "4"
                         },
                         {
-                            "_name": "moreThanTwoADayWeight",
-                            "_value": "100.0"
+                            "name": "moreThanTwoADayWeight",
+                            "value": "100.0"
                         },
                         {
-                            "_name": "mpp",
-                            "_value": "false"
+                            "name": "mpp",
+                            "value": "false"
                         },
                         {
-                            "_name": "periodIndexWeight",
-                            "_value": "1.0E-7"
+                            "name": "periodIndexWeight",
+                            "value": "1.0E-7"
                         },
                         {
-                            "_name": "periodSizeWeight",
-                            "_value": "0.5"
+                            "name": "periodSizeWeight",
+                            "value": "0.5"
                         },
                         {
-                            "_name": "periodWeight",
-                            "_value": "1.0"
+                            "name": "periodWeight",
+                            "value": "1.0"
                         },
                         {
-                            "_name": "perturbationWeight",
-                            "_value": "0.0010"
+                            "name": "perturbationWeight",
+                            "value": "0.0010"
                         },
                         {
-                            "_name": "roomPerturbationWeight",
-                            "_value": "0.1"
+                            "name": "roomPerturbationWeight",
+                            "value": "0.1"
                         },
                         {
-                            "_name": "roomSizeFactor",
-                            "_value": "1.1"
+                            "name": "roomSizeFactor",
+                            "value": "1.1"
                         },
                         {
-                            "_name": "roomSizeWeight",
-                            "_value": "0.0010"
+                            "name": "roomSizeWeight",
+                            "value": "0.0010"
                         },
                         {
-                            "_name": "roomSplitDistanceWeight",
-                            "_value": "0.01"
+                            "name": "roomSplitDistanceWeight",
+                            "value": "0.01"
                         },
                         {
-                            "_name": "roomSplitWeight",
-                            "_value": "10.0"
+                            "name": "roomSplitWeight",
+                            "value": "10.0"
                         },
                         {
-                            "_name": "roomWeight",
-                            "_value": "1.0"
+                            "name": "roomWeight",
+                            "value": "1.0"
                         }
                     ]
                 },
                 "periods": {
                     "period": [
                         {
-                            "_id": "1",
-                            "_length": "120",
-                            "_day": "Mon 04/30",
-                            "_time": "8:00a - 10:00a",
-                            "_penalty": "0"
+                            "id": "1",
+                            "length": "120",
+                            "day": "Mon 04/30",
+                            "time": "8:00a - 10:00a",
+                            "penalty": "0"
                         },
                         {
-                            "_id": "2",
-                            "_length": "120",
-                            "_day": "Mon 04/30",
-                            "_time": "10:20a - 12:20p",
-                            "_penalty": "0"
+                            "id": "2",
+                            "length": "120",
+                            "day": "Mon 04/30",
+                            "time": "10:20a - 12:20p",
+                            "penalty": "0"
                         },
                         {
-                            "_id": "3",
-                            "_length": "120",
-                            "_day": "Mon 04/30",
-                            "_time": "1:00p - 3:00p",
-                            "_penalty": "0"
+                            "id": "3",
+                            "length": "120",
+                            "day": "Mon 04/30",
+                            "time": "1:00p - 3:00p",
+                            "penalty": "0"
                         },
                         {
-                            "_id": "4",
-                            "_length": "120",
-                            "_day": "Mon 04/30",
-                            "_time": "3:20p - 5:20p",
-                            "_penalty": "0"
+                            "id": "4",
+                            "length": "120",
+                            "day": "Mon 04/30",
+                            "time": "3:20p - 5:20p",
+                            "penalty": "0"
                         },
                         {
-                            "_id": "5",
-                            "_length": "120",
-                            "_day": "Mon 04/30",
-                            "_time": "7:00p - 9:00p",
-                            "_penalty": "0"
+                            "id": "5",
+                            "length": "120",
+                            "day": "Mon 04/30",
+                            "time": "7:00p - 9:00p",
+                            "penalty": "0"
                         }
                     ]
                 },
                 "rooms": {
                     "room": [
                         {
-                            "_id": "1",
-                            "_size": "30",
-                            "_alt": "15",
-                            "_coordinates": "40.421707,-86.91657"
+                            "id": "1",
+                            "size": "30",
+                            "alt": "15",
+                            "coordinates": "40.421707,-86.91657"
                         },
                         {
-                            "_id": "2",
-                            "_size": "40",
-                            "_alt": "20",
-                            "_coordinates": "40.421707,-86.91657"
+                            "id": "2",
+                            "size": "40",
+                            "alt": "20",
+                            "coordinates": "40.421707,-86.91657"
                         },
                         {
-                            "_id": "3",
-                            "_size": "30",
-                            "_alt": "15",
-                            "_coordinates": "40.421707,-86.91657"
+                            "id": "3",
+                            "size": "30",
+                            "alt": "15",
+                            "coordinates": "40.421707,-86.91657"
                         },
                         {
-                            "_id": "4",
-                            "_size": "20",
-                            "_alt": "10",
-                            "_coordinates": "40.421707,-86.91657"
+                            "id": "4",
+                            "size": "20",
+                            "alt": "10",
+                            "coordinates": "40.421707,-86.91657"
                         },
                         {
-                            "_id": "5",
-                            "_size": "30",
-                            "_alt": "15",
-                            "_coordinates": "40.421707,-86.91657"
+                            "id": "5",
+                            "size": "30",
+                            "alt": "15",
+                            "coordinates": "40.421707,-86.91657"
                         }
                     ]
                 },
                 "exams": {
                     "exam": [
                         {
-                            "_id": "1",
-                            "_length": "120",
-                            "_alt": "true",
-                            "_printOffset": "0",
-                            "_average": "17"
+                            "id": "1",
+                            "length": "120",
+                            "alt": "true",
+                            "printOffset": "0",
+                            "average": "17"
                         },
                         {
-                            "_id": "2",
-                            "_length": "120",
-                            "_alt": "true",
-                            "_printOffset": "0",
-                            "_average": "17"
+                            "id": "2",
+                            "length": "120",
+                            "alt": "true",
+                            "printOffset": "0",
+                            "average": "17"
                         },
                         {
-                            "_id": "3",
-                            "_length": "120",
-                            "_alt": "true",
-                            "_printOffset": "0",
-                            "_average": "17"
+                            "id": "3",
+                            "length": "120",
+                            "alt": "true",
+                            "printOffset": "0",
+                            "average": "17"
                         },
                         {
-                            "_id": "4",
-                            "_length": "120",
-                            "_alt": "true",
-                            "_printOffset": "0",
-                            "_average": "17"
+                            "id": "4",
+                            "length": "120",
+                            "alt": "true",
+                            "printOffset": "0",
+                            "average": "17"
                         },
                         {
-                            "_id": "5",
-                            "_length": "120",
-                            "_alt": "true",
-                            "_printOffset": "0",
-                            "_average": "17"
+                            "id": "5",
+                            "length": "120",
+                            "alt": "true",
+                            "printOffset": "0",
+                            "average": "17"
                         }
                     ]
                 },
@@ -235,363 +235,421 @@
                         {
                             "exam": [
                                 {
-                                    "_id": "1"
+                                    "id": "1"
                                 },
                                 {
-                                    "_id": "2"
+                                    "id": "2"
                                 },
                                 {
-                                    "_id": "3"
+                                    "id": "3"
                                 },
                                 {
-                                    "_id": "4"
+                                    "id": "4"
                                 },
                                 {
-                                    "_id": "5"
+                                    "id": "5"
                                 }
                             ],
-                            "_id": "1"
+                            "id": "1"
                         },
                         {
                             "exam": [
                                 {
-                                    "_id": "1"
+                                    "id": "1"
                                 },
                                 {
-                                    "_id": "2"
+                                    "id": "2"
                                 },
                                 {
-                                    "_id": "3"
+                                    "id": "3"
                                 },
                                 {
-                                    "_id": "4"
+                                    "id": "4"
                                 },
                                 {
-                                    "_id": "5"
+                                    "id": "5"
                                 }
                             ],
-                            "_id": "2"
+                            "id": "2"
                         },
                         {
                             "exam": [
                                 {
-                                    "_id": "1"
+                                    "id": "1"
                                 },
                                 {
-                                    "_id": "2"
+                                    "id": "2"
                                 },
                                 {
-                                    "_id": "3"
+                                    "id": "3"
                                 },
                                 {
-                                    "_id": "4"
+                                    "id": "4"
                                 },
                                 {
-                                    "_id": "5"
+                                    "id": "5"
                                 }
                             ],
-                            "_id": "3"
+                            "id": "3"
                         },
                         {
                             "exam": [
                                 {
-                                    "_id": "1"
+                                    "id": "1"
                                 },
                                 {
-                                    "_id": "2"
+                                    "id": "2"
                                 },
                                 {
-                                    "_id": "3"
+                                    "id": "3"
                                 },
                                 {
-                                    "_id": "4"
+                                    "id": "4"
                                 },
                                 {
-                                    "_id": "5"
+                                    "id": "5"
                                 }
                             ],
-                            "_id": "4"
+                            "id": "4"
                         },
                         {
                             "exam": [
                                 {
-                                    "_id": "1"
+                                    "id": "1"
                                 },
                                 {
-                                    "_id": "2"
+                                    "id": "2"
                                 },
                                 {
-                                    "_id": "3"
+                                    "id": "3"
                                 },
                                 {
-                                    "_id": "4"
+                                    "id": "4"
                                 },
                                 {
-                                    "_id": "5"
+                                    "id": "5"
                                 }
                             ],
-                            "_id": "5"
+                            "id": "5"
                         },
                         {
                             "exam": [
                                 {
-                                    "_id": "1"
+                                    "id": "1"
                                 },
                                 {
-                                    "_id": "2"
+                                    "id": "2"
                                 },
                                 {
-                                    "_id": "3"
+                                    "id": "3"
                                 },
                                 {
-                                    "_id": "4"
+                                    "id": "4"
                                 },
                                 {
-                                    "_id": "5"
+                                    "id": "5"
                                 }
                             ],
-                            "_id": "6"
+                            "id": "6"
                         },
                         {
                             "exam": [
                                 {
-                                    "_id": "1"
+                                    "id": "1"
                                 },
                                 {
-                                    "_id": "2"
+                                    "id": "2"
                                 },
                                 {
-                                    "_id": "3"
+                                    "id": "3"
                                 },
                                 {
-                                    "_id": "4"
+                                    "id": "4"
                                 },
                                 {
-                                    "_id": "5"
+                                    "id": "5"
                                 }
                             ],
-                            "_id": "7"
+                            "id": "7"
                         },
                         {
                             "exam": [
                                 {
-                                    "_id": "1"
+                                    "id": "1"
                                 },
                                 {
-                                    "_id": "2"
+                                    "id": "2"
                                 },
                                 {
-                                    "_id": "3"
+                                    "id": "3"
                                 },
                                 {
-                                    "_id": "4"
+                                    "id": "4"
                                 },
                                 {
-                                    "_id": "5"
+                                    "id": "5"
                                 }
                             ],
-                            "_id": "8"
+                            "id": "8"
                         },
                         {
                             "exam": [
                                 {
-                                    "_id": "1"
+                                    "id": "1"
                                 },
                                 {
-                                    "_id": "2"
+                                    "id": "2"
                                 },
                                 {
-                                    "_id": "3"
+                                    "id": "3"
                                 },
                                 {
-                                    "_id": "4"
+                                    "id": "4"
                                 },
                                 {
-                                    "_id": "5"
+                                    "id": "5"
                                 }
                             ],
-                            "_id": "9"
+                            "id": "9"
                         },
                         {
                             "exam": [
                                 {
-                                    "_id": "1"
+                                    "id": "1"
                                 },
                                 {
-                                    "_id": "2"
+                                    "id": "2"
                                 },
                                 {
-                                    "_id": "3"
+                                    "id": "3"
                                 },
                                 {
-                                    "_id": "4"
+                                    "id": "4"
                                 },
                                 {
-                                    "_id": "5"
+                                    "id": "5"
                                 }
                             ],
-                            "_id": "10"
+                            "id": "10"
                         },
                         {
                             "exam": [
                                 {
-                                    "_id": "1"
+                                    "id": "1"
                                 },
                                 {
-                                    "_id": "2"
+                                    "id": "2"
                                 },
                                 {
-                                    "_id": "3"
+                                    "id": "3"
                                 },
                                 {
-                                    "_id": "4"
+                                    "id": "4"
                                 },
                                 {
-                                    "_id": "5"
+                                    "id": "5"
                                 }
                             ],
-                            "_id": "11"
+                            "id": "11"
                         },
                         {
                             "exam": [
                                 {
-                                    "_id": "1"
+                                    "id": "1"
                                 },
                                 {
-                                    "_id": "2"
+                                    "id": "2"
                                 },
                                 {
-                                    "_id": "3"
+                                    "id": "3"
                                 },
                                 {
-                                    "_id": "4"
+                                    "id": "4"
                                 },
                                 {
-                                    "_id": "5"
+                                    "id": "5"
                                 }
                             ],
-                            "_id": "12"
+                            "id": "12"
                         },
                         {
                             "exam": [
                                 {
-                                    "_id": "1"
+                                    "id": "1"
                                 },
                                 {
-                                    "_id": "2"
+                                    "id": "2"
                                 },
                                 {
-                                    "_id": "3"
+                                    "id": "3"
                                 },
                                 {
-                                    "_id": "4"
+                                    "id": "4"
                                 },
                                 {
-                                    "_id": "5"
+                                    "id": "5"
                                 }
                             ],
-                            "_id": "13"
+                            "id": "13"
                         },
                         {
                             "exam": [
                                 {
-                                    "_id": "1"
+                                    "id": "1"
                                 },
                                 {
-                                    "_id": "2"
+                                    "id": "2"
                                 },
                                 {
-                                    "_id": "3"
+                                    "id": "3"
                                 },
                                 {
-                                    "_id": "4"
+                                    "id": "4"
                                 },
                                 {
-                                    "_id": "5"
+                                    "id": "5"
                                 }
                             ],
-                            "_id": "14"
+                            "id": "14"
                         },
                         {
                             "exam": [
                                 {
-                                    "_id": "1"
+                                    "id": "1"
                                 },
                                 {
-                                    "_id": "2"
+                                    "id": "2"
                                 },
                                 {
-                                    "_id": "3"
+                                    "id": "3"
                                 },
                                 {
-                                    "_id": "4"
+                                    "id": "4"
                                 },
                                 {
-                                    "_id": "5"
+                                    "id": "5"
                                 }
                             ],
-                            "_id": "15"
+                            "id": "15"
                         },
                         {
                             "exam": [
                                 {
-                                    "_id": "4"
+                                    "id": "4"
                                 },
                                 {
-                                    "_id": "5"
+                                    "id": "5"
                                 }
                             ],
-                            "_id": "16"
+                            "id": "16"
                         },
                         {
                             "exam": [
                                 {
-                                    "_id": "2"
+                                    "id": "2"
                                 },
                                 {
-                                    "_id": "3"
+                                    "id": "3"
                                 }
                             ],
-                            "_id": "17"
+                            "id": "17"
                         },
                         {
                             "exam": [
                                 {
-                                    "_id": "1"
+                                    "id": "1"
                                 },
                                 {
-                                    "_id": "4"
+                                    "id": "4"
                                 }
                             ],
-                            "_id": "18"
+                            "id": "18"
                         },
                         {
                             "exam": [
                                 {
-                                    "_id": "2"
+                                    "id": "2"
                                 },
                                 {
-                                    "_id": "5"
+                                    "id": "5"
                                 }
                             ],
-                            "_id": "19"
+                            "id": "19"
                         },
                         {
                             "exam": [
                                 {
-                                    "_id": "3"
+                                    "id": "3"
                                 },
                                 {
-                                    "_id": "4"
+                                    "id": "4"
                                 }
                             ],
-                            "_id": "20"
+                            "id": "20"
                         }
                     ]
                 },
-                "instructors": "",
-                "_version": "1.0",
-                "_created": "Tue Feb 12 13:45:28 CET 2013"
+                "instructors": {
+                    "instructor": [
+                        {
+                            "id": "1",
+                            "exam": [
+                                {
+                                    "id": "1"
+                                },
+                                {
+                                    "id": "2"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "2",
+                            "exam": [
+                                {
+                                    "id": "3"
+                                },
+                                {
+                                    "id": "4"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "3",
+                            "exam": [
+                                {
+                                    "id": "1"
+                                },
+                                {
+                                    "id": "5"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "4",
+                            "exam": [
+                                {
+                                    "id": "2"
+                                },
+                                {
+                                    "id": "4"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "5",
+                            "exam": [
+                                {
+                                    "id": "3"
+                                },
+                                {
+                                    "id": "5"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "version": "1.0",
+                "created": "Tue Feb 12 13:45:28 CET 2013"
             }
         },
         "output": null,

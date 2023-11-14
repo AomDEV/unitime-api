@@ -10,9 +10,12 @@ services:
       - "3000:3000"
     networks:
       - caddy
+      - db
     labels:
       caddy: unitime-api.aomdev.com
       caddy.reverse_proxy: "{{ upstreams 3000 }}"
 networks:
+  db:
+    external: true
   caddy:
     external: true

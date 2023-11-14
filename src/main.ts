@@ -16,12 +16,9 @@ async function bootstrap() {
 	app.use(json({ limit: '5mb' })); //5mb limit
 	app.useGlobalPipes(new ValidationPipe({ transform: true }));
 	app.useGlobalInterceptors(new ResponseInterceptor());
-	app.enableVersioning({
-		type: VersioningType.URI,
-	});
 	app.setGlobalPrefix('api');
 	app.enableCors({});
-	app.enableVersioning({type: VersioningType.URI});
+	app.enableVersioning({type: VersioningType.URI, defaultVersion: '1'});
 
 	const config = new DocumentBuilder()
 		.setTitle('UniTime')

@@ -11,8 +11,8 @@ import { CompleteUsecase } from "./usecases/complete.usecase";
 import { Response as ExpressResponse } from "express";
 import { ApiTags } from "@nestjs/swagger";
 
-@Controller({version: "1", path: "task"})
 @ApiTags("Task")
+@Controller({version: "1", path: "task"})
 export class TaskController {
     constructor (
         private readonly listUsecase: ListUsecase,

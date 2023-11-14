@@ -1,5 +1,5 @@
 import { ApiProperty } from "@nestjs/swagger";
-import { IsDataURI, IsString } from "class-validator";
+import { IsBase64, IsString } from "class-validator";
 
 export class CompleteTaskDTO {
     @ApiProperty()
@@ -7,6 +7,6 @@ export class CompleteTaskDTO {
     key: string;
 
     @ApiProperty()
-    @IsDataURI()
+    @IsBase64()
     output: string;
 }

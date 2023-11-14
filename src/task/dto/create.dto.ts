@@ -1,8 +1,8 @@
 import { ApiProperty } from "@nestjs/swagger";
-import { IsJSON } from "class-validator";
+import { IsObject } from "class-validator";
 
 export class CreateTaskDTO {
     @ApiProperty()
-    @IsJSON()
+    @IsObject()
     input: any;
 }

@@ -1,6 +1,5 @@
 import { IUsecase } from "@/common/interfaces/usecase.interface";
 import { PrismaService } from "@/common/services/prisma.service";
-import { Task } from "@/generated";
 import { ForbiddenException, Injectable } from "@nestjs/common";
 import { CompleteTaskDTO } from "@/task/dto/complete.dto";
 import { toJson } from "xml2json";

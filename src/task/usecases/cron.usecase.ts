@@ -1,7 +1,7 @@
 import { IUsecase } from "@/common/interfaces/usecase.interface";
 import { PrismaService } from "@/common/services/prisma.service";
 import { Injectable, Logger } from "@nestjs/common";
-import moment from "moment";
+import * as moment from "moment";
 
 @Injectable()
 export class CronUsecase implements IUsecase<Promise<void>> {
